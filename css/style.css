@@ -298,27 +298,45 @@ img {
     background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
 }
 
+
+.directions_wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+
 .directions_header {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
     padding-top: 100px;
-    padding-bottom: 70px;
+    padding-bottom: 302px;
 }
 
 .directions_title {
+    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 53px;
     color: #FFFFFF;
+    width: 540px;
+
 }
 
 .directions_content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
+    position: absolute;
+    top: 282px;
+    left: 0;
+    transform: translateY(48px);
 
+}
+.directions_card {
+margin-bottom: 85px;
 }
 .directions_pic {
     margin-bottom: 30px;
@@ -344,6 +362,64 @@ img {
     line-height: 20px;
     text-decoration-line: underline;
     color: #4985FF;
+}
+
+.directions_line {
+    /*margin-top: 700px;*/
+    background-color: black;
+}
+.projects {
+    margin-top: 500px;
+}
+.projects_header_title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.projects_header_subtitle{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 70px;
+}
+
+.projects_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    margin-bottom: 50px;
+}
+.projects_button {
+    margin-left: 455px;
+    margin-bottom: 130px;
+}
+
+.video {
+    background-image: url("video1.svg");
+    padding-bottom: 420px;
+}
+.video_header {
+    color: white;
+}
+.video_header_title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+.video_header_subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+
 }
 
 
