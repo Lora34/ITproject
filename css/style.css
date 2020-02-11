@@ -87,6 +87,9 @@ img {
     padding-bottom: 20px;
     z-index: 1000;
 }
+.header_active {
+    background-color: #323232;
+}
 .header_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -211,9 +214,7 @@ img {
     display: inline;
     margin-bottom: 55px;
 }
-.benefits_card_pic {
 
-}
         .benefits_card_external {
          position: absolute;
         }
@@ -230,6 +231,7 @@ img {
 .benefits_card_info {
     margin-left: 128px;
 }
+
 .benefits_card_title {
     margin-top: 46px;
     font-weight: 600;
@@ -668,6 +670,18 @@ footer li:last-child {
     }
 
 
+}
+
+@media screen and (max-width: 1024px) {
+    .benefits_cards {
+        color: black;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-content: center;
+        justify-content: center;
+
+
+    }
 }
 
 
