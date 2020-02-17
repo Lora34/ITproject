@@ -90,6 +90,7 @@ img {
 .header_active {
     background-color: #323232;
 }
+
 .header_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -97,6 +98,7 @@ img {
     justify-content: space-between;
     padding-top: 40px;
 }
+
 .header_list {
     display: flex;
     flex-wrap: wrap;
@@ -179,6 +181,7 @@ img {
     color: #fff;
     margin: 0 auto;
 }
+
 .benefits {
     margin-bottom: 120px;
 }

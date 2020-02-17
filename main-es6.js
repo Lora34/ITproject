@@ -1,3 +1,4 @@
+// смена цвета фона для header при скроле
 (function () {
     const header = document.querySelector('.header');
     const menu = document.querySelector('.header_nav');
@@ -26,9 +27,6 @@
         // } else {
         //     // change functionality for larger screens
         // }
-
-
-
 }());
 
 (function() {
